@@ -1,5 +1,13 @@
-$bgcolor: rgb(124, 57, 57);
+@use 'variables';
+@use 'banner';
+@use 'header';
 
-body {
-  background-color: $bgcolor;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: variables.$font;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
 }
